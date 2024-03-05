@@ -28,7 +28,7 @@ body {
   align-items: center;
   width: 350px;
   background-color: var(--neutral-very-pale-blue);
-  padding: 0 50px 30px 50px;
+  padding: 0 50px 0 50px;
   justify-content: space-between;
   margin: 0 auto;
 }
@@ -51,10 +51,8 @@ h1 {
   grid-template-columns: 1fr 2fr 0.5fr;
   align-items: center;
   background-color: var(--primary-pale-blue);
-  border-radius: 5px;
+  border-radius: 8px;
 }
-
-
 
 .subscription img {
   object-fit: cover;
@@ -62,7 +60,6 @@ h1 {
   background-color: ;
 
 }
-
 
 .plan {
   display: flex;
@@ -88,7 +85,29 @@ h1 {
   font-weight: bold;
 }
 
+.payment {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.payment .make-payment {
+  background-color: var(--primary-bright-blue);
+  padding: 10px 0;
+  color: var(--neutral-very-pale-blue);
+  border-radius: 10px;
+  box-shadow: 2px 5px 6px rgba(53, 132, 216, 0.4);
+}
+
+.payment .cancel {
+  color: var(--neutral-desaturated-blue);
+  font-weight: bold;
+  margin: 24px 0;
+}
+
+
 .attribution {
+  margin-top: 40px;
   font-size: 11px;
   text-align: center;
 }
