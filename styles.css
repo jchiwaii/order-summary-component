@@ -136,6 +136,7 @@ h1 {
   .main-content {
     padding: 0 30px 0 30px;
   }
+  
   .desktop-image img {
     width: 340px;
     margin: 80px auto 0 auto;
@@ -144,5 +145,6 @@ h1 {
   .main-content {
     width: 280px;
   }
+
 
 }
