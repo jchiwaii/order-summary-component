@@ -48,23 +48,44 @@ h1 {
 .subscription {
   display: grid;
   width: 100%;
-  grid-template-columns: 0.5fr 2fr 1fr;
+  grid-template-columns: 1fr 2fr 0.5fr;
   align-items: center;
+  background-color: var(--primary-pale-blue);
+  border-radius: 5px;
 }
 
 
 
 .subscription img {
   object-fit: cover;
-  padding: 10px;
-  margin-top: 16px;
+  margin: 16px;
+  background-color: ;
 
 }
+
 
 .plan {
   display: flex;
   flex-direction: column;
-  padding-left: 15px;
+}
+
+.plan h2 {
+  margin: 0;
+  font-size: 16px;
+  color: var(--neutral-dark-blue);
+  font-weight: bolder;
+}
+
+.plan p {
+  margin: 0;
+  color: var(--neutral-desaturated-blue);
+}
+
+.change {
+  padding-right: 20px;
+  color: var(--primary-bright-blue);
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .attribution {
