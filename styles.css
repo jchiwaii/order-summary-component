@@ -18,7 +18,7 @@ body {
 
 .desktop-image img {
   display: flex;
-  margin: 60px auto 0 auto;
+  margin: 3.75rem auto 0 auto;
   justify-content: center;
 }
 
@@ -26,16 +26,16 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 350px;
+  width: 21.875rem;
   background-color: var(--neutral-very-pale-blue);
-  padding: 0 50px 0 50px;
+  padding: 0 3.125rem 0 3.125rem;
   justify-content: space-between;
   margin: 0 auto;
 }
 
 h1 {
   color: var(--neutral-dark-blue);
-  margin: 30px 0 0 0;
+  margin: 1.875rem 0 0 0;
   text-align: center;
 }
 
@@ -50,13 +50,12 @@ h1 {
   grid-template-columns: 1fr 2fr 0.5fr;
   align-items: center;
   background-color: var(--primary-pale-blue);
-  border-radius: 8px;
+  border-radius: 0.5rem;
 }
 
 .subscription img {
   object-fit: cover;
-  margin: 16px;
-  background-color: ;
+  margin: 1rem;
 }
 
 .plan {
@@ -66,7 +65,7 @@ h1 {
 
 .plan h2 {
   margin: 0;
-  font-size: 16px;
+  font-size: 1rem;
   color: var(--neutral-dark-blue);
   font-weight: bolder;
 }
@@ -77,7 +76,7 @@ h1 {
 }
 
 .change {
-  padding-right: 20px;
+  padding-right: 1.25rem;
   color: var(--primary-bright-blue);
   text-decoration: underline;
   font-weight: bold;
@@ -91,15 +90,15 @@ h1 {
 .payment {
   width: 100%;
   text-align: center;
-  padding: 10px 0;
+  padding: 0.625rem 0;
 }
 
 .payment .make-payment {
   background-color: var(--primary-bright-blue);
-  padding: 10px 0;
+  padding: 0.625rem 0;
   color: var(--neutral-very-pale-blue);
-  border-radius: 10px;
-  box-shadow: 2px 5px 6px rgba(53, 132, 216, 0.4);
+  border-radius: 0.625rem;
+  box-shadow: 0.125rem 0.3125rem 0.375rem rgba(53, 132, 216, 0.4);
 }
 
 .payment .make-payment:hover {
@@ -110,7 +109,7 @@ h1 {
 .payment .cancel {
   color: var(--neutral-desaturated-blue);
   font-weight: bold;
-  margin: 24px 0;
+  margin: 1.5rem 0;
 }
 
 .payment .cancel:hover {
@@ -119,32 +118,30 @@ h1 {
   font-weight: bolder;
 }
 .attribution {
-  margin-top: 40px;
-  font-size: 11px;
+  margin-top: 2.5rem;
+  font-size: 0.6875rem;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 23.4375rem) {
   body {
     background-image: url(/images/pattern-background-mobile.svg);
-    width: 370px;
+    width: 23.125rem;
   }
-  
+
   .main-content {
-    padding: 0 30px 0 30px;
+    padding: 0 1.875rem 0 1.875rem;
   }
-  
+
   .desktop-image img {
-    width: 340px;
-    margin: 80px auto 0 auto;
+    width: 21.25rem;
+    margin: 5rem auto 0 auto;
   }
 
   .main-content {
-    width: 280px;
+    width: 17.5rem;
   }
-
-
 }
