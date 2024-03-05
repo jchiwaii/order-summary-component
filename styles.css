@@ -126,3 +126,23 @@ h1 {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media only screen and (max-width: 375px) {
+  body {
+    background-image: url(/images/pattern-background-mobile.svg);
+    width: 370px;
+  }
+  
+  .main-content {
+    padding: 0 30px 0 30px;
+  }
+  .desktop-image img {
+    width: 340px;
+    margin: 80px auto 0 auto;
+  }
+
+  .main-content {
+    width: 280px;
+  }
+
+}
