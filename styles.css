@@ -42,7 +42,6 @@ h1 {
 .main-text p {
   color: var(--neutral-desaturated-blue);
   text-align: center;
-
 }
 
 .subscription {
@@ -58,7 +57,6 @@ h1 {
   object-fit: cover;
   margin: 16px;
   background-color: ;
-
 }
 
 .plan {
@@ -85,6 +83,11 @@ h1 {
   font-weight: bold;
 }
 
+.change:hover {
+  cursor: pointer;
+  color: hsl(243, 100%, 67%);
+}
+
 .payment {
   width: 100%;
   text-align: center;
@@ -99,13 +102,22 @@ h1 {
   box-shadow: 2px 5px 6px rgba(53, 132, 216, 0.4);
 }
 
+.payment .make-payment:hover {
+  cursor: pointer;
+  background-color: hsl(243, 100%, 67%);
+}
+
 .payment .cancel {
   color: var(--neutral-desaturated-blue);
   font-weight: bold;
   margin: 24px 0;
 }
 
-
+.payment .cancel:hover {
+  cursor: pointer;
+  color: var(--neutral-dark-blue);
+  font-weight: bolder;
+}
 .attribution {
   margin-top: 40px;
   font-size: 11px;
