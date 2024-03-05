@@ -33,11 +33,17 @@ body {
   margin: 0 auto;
 }
 
-
 h1 {
   color: var(--neutral-dark-blue);
   margin: 30px 0 0 0;
+  text-align: center;
 }
+
+.main-text p {
+  color: var(--neutral-desaturated-blue);
+  text-align: center;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
