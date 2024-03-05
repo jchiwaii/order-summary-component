@@ -44,8 +44,22 @@ h1 {
   text-align: center;
 }
 
-.subscription{
+.subscription {
   display: flex;
+  width: 100%;
+}
+
+.subscription img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  padding: 10px;
+}
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
 }
 
 .attribution {
