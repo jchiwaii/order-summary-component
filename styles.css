@@ -42,7 +42,7 @@ h1 {
 .main-text p {
   color: var(--neutral-desaturated-blue);
   text-align: center;
-  margin-bottom: 30px;
+
 }
 
 .subscription {
@@ -57,7 +57,7 @@ h1 {
 .subscription img {
   object-fit: cover;
   padding: 10px;
-
+  margin-top: 16px;
 
 }
 
