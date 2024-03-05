@@ -6,7 +6,29 @@
   --neutral-dark-blue: hsl(223, 47%, 23%);
 }
 
+body {
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
 
+.desktop-image img {
+  display: flex;
+  margin: 60px auto 0 auto;
+  justify-content: center;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  background-color: var(--neutral-very-pale-blue);
+  padding: 0 50px;
+}
 
 .attribution {
   font-size: 11px;
